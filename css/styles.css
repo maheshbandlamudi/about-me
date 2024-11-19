@@ -1,0 +1,183 @@
+/* Color Pallette: 
+
+Text: #EEC5AC
+Headers: #DB944A
+Background: #FDF4E3
+Footer: #191B18 */
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 62.5%; /* Set font root font size to 10px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #fdf4e3;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+
+
+}
+
+h1, h2, h3 {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-weight: 500;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1;
+  margin-top: 2%;
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin-top: 1.5%
+}
+
+h3 {
+  font-size: 2.5rem;
+
+}
+
+footer {
+  background-color: #191b18;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+a {
+  color: #db944a;
+  text-decoration: none;
+}
+a:hover {
+  color: #191b18;
+}
+
+footer a {
+  color: #fdf4e3;
+  text-decoration: none;
+}
+
+footer p {
+  color: #fdf4e3;
+}
+
+footer a:hover {
+  color: #db944a;
+}
+
+.socials {
+  list-style-type: none;
+  padding: 0;
+}
+
+.socials li {
+  display: inline;
+}
+
+.socials img {
+  width: 32px;
+  margin: 0 10px;
+}
+
+.content-wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/*Home styles
+------------------------------ */
+.home {
+  background: url(../images/pexels-karlsolano-2883049.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.home .content-wrapper {
+  margin-top: 2%;
+  
+  flex: 1 0 auto;
+}
+
+.content-bg {
+  background-color: rgb(255 255 255/ 0.9);
+  padding: 30px 35px 20px 35px;
+}
+
+/* Resume styles
+------------------------------ */
+
+.pdf-button {
+  background-color: #EEC5AC;
+  color: #191b18;
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 7px;
+  border-radius: 10px;
+  letter-spacing: 0.1em;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.resume-section h2{
+  border-bottom: #db944a dashed;
+  margin-bottom: 20px;
+}
+
+.img-header {
+  background: url(../images/pexels-karlsolano-2883049.jpg);
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  margin: 0;
+  margin-top: -10%;
+}
+
+/*Work experience styles
+------------------------------ */
+.work-details {
+  margin: 0;
+}
+
+.work-summary p:first-child{
+  margin-top: 0;
+}
+
+.work-item {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 20px;
+  margin: 30px 0;
+  padding: 0px;
+}
+.work-details p {
+  margin: 0;
+}
+.work-summary p:first-child {
+  margin-top: 0;
+}
+
+/*Education styles
+------------------------------ */
+
+/*Footer styles
+------------------------------ */
